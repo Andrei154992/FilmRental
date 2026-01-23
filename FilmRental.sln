@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{996CEBED-A05B-5D42-3FF0-982E087A2599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "domain\Inventory\Inventory\Inventory.csproj", "{73FAF6E4-E9A2-4081-86BA-043BCDBC5F75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73FAF6E4-E9A2-4081-86BA-043BCDBC5F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FAF6E4-E9A2-4081-86BA-043BCDBC5F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FAF6E4-E9A2-4081-86BA-043BCDBC5F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FAF6E4-E9A2-4081-86BA-043BCDBC5F75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73FAF6E4-E9A2-4081-86BA-043BCDBC5F75} = {996CEBED-A05B-5D42-3FF0-982E087A2599}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAE8AA5E-E6FD-4BF6-968F-0942A790827C}
+	EndGlobalSection
+EndGlobal
