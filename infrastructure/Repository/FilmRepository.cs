@@ -1,8 +1,9 @@
 ﻿using Inventory;
+using Inventory.Interfaces;
 
 namespace Repository
 {
-    public class FilmRepository
+    public class FilmRepository : IFilmRepository
     {
         public Film[] films = new Film[3]
         {
@@ -18,5 +19,17 @@ namespace Repository
                 "потопить Лесоруба на фабрике по производству воздушных шаров.",
                 2006, 1, 7, 4, 2.99, 18.99m)
         };
+
+        public Film[] GetById(int filmId)
+        {
+            return films.Where(film => film.film_id == filmId)
+                            .ToArray();
+        }
+
+        public Film[] GetByTitle(string filmTitle)
+        {
+            return films.Where(film => film.title == filmTitle)
+                    .ToArray();  
+        }
     }
 }
